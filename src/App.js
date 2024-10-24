@@ -82,6 +82,12 @@ function App() {
                 borderRadius: 30,
                 maxWidth: 240,
                 background: "linear-gradient(#70C3FF, #4B65FF)",
+                "&:hover": {
+                  background: "linear-gradient(#70C3FF, #324ce5)",
+                },
+                "&:active": {
+                  background: "linear-gradient(#046cb7, #001cc1)",
+                },
               }}
             >
               Sign up
